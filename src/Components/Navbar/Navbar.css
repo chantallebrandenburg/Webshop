@@ -1,0 +1,119 @@
+.ellfOQ {
+  padding-top: 15px !important;
+  height: 50px !important;
+  padding-bottom: 0 !important;
+  justify-content: space-around !important;
+  width: 100% !important;
+  padding-left: 5% !important;
+  padding-right: 5% !important;
+}
+
+.hallo {
+  position: relative;
+  background: rgba(0, 0, 0, 0.253) !important;
+  height: 5%;
+  align-items: flex-start;
+}
+
+.hallo:hover {
+  background: white !important;
+  color: black;
+  transition: 1.7s;
+  color: rgb(24, 172, 192);
+}
+
+.hallo a {
+  font-size: 0.8em;
+  background-color: rgba(0, 0, 0, 0);
+  height: 10%;
+  align-items: flex-start;
+  color: white;
+}
+
+.hallo a:active {
+  color: rgb(206, 84, 104);
+}
+
+.hallo:hover a {
+  transition: 0.5s;
+  color: black;
+  transition: 0.5s;
+}
+
+.hallo:hover a:hover {
+  color: rgb(206, 84, 104);
+}
+
+.hallo p {
+  font-size: 3vw;
+  padding: 0;
+}
+.hallo:hover p {
+  transition: 0.5s;
+  color: rgb(0, 0, 0);
+}
+
+.hallo img {
+  height: 2vh;
+  width: 2vh;
+  color: white;
+  max-height: 10vh;
+}
+
+.hallo img:hover {
+  color: rgb(0, 0, 0) !important;
+  background-color: blue;
+}
+
+.NavbarItems {
+  align-items: flex-start !important;
+  height: 10px !important;
+  display: flex;
+}
+
+.icon {
+  color: white;
+}
+
+.logo {
+  position: relative;
+  width: auto;
+  font-family: "Abhaya Libre", serif;
+  color: white;
+  text-decoration: none;
+  font-size: 7vh;
+  margin-top: -11%;
+}
+
+.navbaricons {
+  font-size: 1.1rem !important;
+}
+
+.link:active {
+  color: rgb(206, 84, 104) !important;
+  height: 0% !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .ellfOQ {
+    padding-right: 0% !important;
+    justify-content: center !important;
+    background: white !important;
+  }
+
+  .hallo,
+  .hallo a,
+  .hallo p {
+    color: black;
+    justify-content: space-around !important;
+  }
+
+  .hallo p {
+    font-size: 20px;
+    line-height: 180%;
+    margin-left: 60%;
+  }
+  .hamburger {
+    color: white;
+  }
+}

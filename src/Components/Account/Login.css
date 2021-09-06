@@ -1,0 +1,29 @@
+#Log_in {
+  background-color: rgb(206, 84, 104);
+  border-color: rgb(206, 84, 104);
+  margin-top: 7%;
+}
+
+#card {
+  display: flex !important;
+  align-items: center !important;
+  text-align: center !important;
+  justify-content: center !important;
+  flex-direction: column !important;
+}
+
+.background {
+  background-color: red;
+  height: 30vh;
+  position: relative;
+  margin-top: -5%;
+  background-image: url("../images/kwarsten.jfif");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 480px) {
+  .background {
+    background-size: 150%;
+  }
+}
