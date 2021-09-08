@@ -1,10 +1,10 @@
 import React from 'react';
 import '../App.css';
 import {
-  BrowserRouter as Router,
   Switch,
   Route,
   Redirect,
+  HashRouter
 } from "react-router-dom";
 import Navbar from "./Navbar/Navbar"
 import Aboutpage from "./Pages/Aboutpage";
@@ -31,12 +31,7 @@ import Dashboard from "../Components/Account/Dashboard";
 function App({ current }) {
   return (
     <AuthProvider>
-    {/* <Container className="d-flex align-items-center justify-content-center"
-      style={{minHeight: "100vh"}}>
-      <div className="w-100" style={{ maxWidth: "400px"}}>
-      </div>
-    </Container> */}
-    <Router>
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <div className="App">
         <Navbar />
           <Switch>
@@ -58,7 +53,7 @@ function App({ current }) {
             
           </Switch>
         </div>
-      </Router>
+      </HashRouter>
     </AuthProvider>
   );
 }
